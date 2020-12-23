@@ -1,177 +1,145 @@
-.scene{
-	width:820px;
-	height:650px;
-	perspective:800px;
-	margin:75px auto;
-}
-
-.carasoul{
-	width:100%;
-	height:100%;
-	position:relative;
-	transform-style:preserve-3d;
-	transition:transform 2s;
-	
-transform:translateZ(-1088px);
-}
-
-img{
-
-width:800px;
-height:630px;
-}
-.item{
-width:800px;
-height:630px;
-position:absolute;
-left:10px;
-top:10px;
-text-align:center;
-font-size:4rem;
-font-weight:bold;
-}
-
-.item:nth-child(1){
-	background-color:rgba(0,0,255,0.5);
-transform:rotateY(0deg) translateZ(1238px);
-}
-
-
-.item:nth-child(2){
-	background-color:rgba(255,122,155,0.5);
-transform:rotateY(36deg) translateZ(1238px);
-}
-
-
-.item:nth-child(3){
-	background-color:rgba(133,255,133,0.5);
-	
-transform:rotateY(72deg) translateZ(1238px);
-}
-
-
-.item:nth-child(4){
-	background-color:rgba(255,144,144,0.5);
-transform:rotateY(108deg) translateZ(1238px);
-}
-
-
-.item:nth-child(5	){
-	background-color:rgba(55,155,155,0.5);
-	
-transform:rotateY(144deg) translateZ(1238px);
-}
-
-
-.item:nth-child(6){
-	background-color:rgba(66,66,255,0.5);
-	
-transform:rotateY(180deg) translateZ(1238px);
-}
-
-
-.item:nth-child(7){
-	background-color:rgba(77,0,255,0.5);
-	
-transform:rotateY(216deg) translateZ(1238px);
-}
-
-
-.item:nth-child(8){
-	background-color:rgba(0,88,255,0.5);
-	
-transform:rotateY(252deg) translateZ(1238px);
-}
-
-
-.item:nth-child(9){
-	background-color:rgba(100,10,199,0.5);
-
-transform:rotateY(288deg) translateZ(1238px);
-}
-
-
-.item:nth-child(10){
-	background-color:rgba(0,88,85,0.5);
-
-transform:rotateY(324deg) translateZ(1238px);	
-}
-
-
-
-
-
-.show-1{
-	background-color:rgba(0,0,255,0.5);
-transform:translateZ(-1238px) rotateY(-0deg);
-}
-
-
-.show-2{
-	background-color:rgba(255,122,155,0.5);
-transform:translateZ(-1238px) rotateY(-36deg);
-}
-
-
-.show-3{
-	background-color:rgba(133,255,133,0.5);
-	
-transform:translateZ(-1238px) rotateY(-72deg);
-}
-
-
-.show-4{
-	background-color:rgba(255,144,144,0.5);
-transform:translateZ(-1238px) rotateY(-108deg);
-}
-
-
-.show-5	{
-	background-color:rgba(55,155,155,0.5);
-	
-transform:translateZ(-1238px) rotateY(-144deg);
-}
-
-
-.show-6{
-	background-color:rgba(66,66,255,0.5);
-	
-transform:translateZ(-1238px) rotateY(-180deg);
-}
-
-
-.show-7{
-	background-color:rgba(77,0,255,0.5);
-	
-transform:translateZ(-1238px) rotateY(-216deg);
-}
-
-
-.show-8{
-	background-color:rgba(0,88,255,0.5);
-	
-transform:translateZ(-1238px) rotateY(-252deg);
-}
-
-
-.show-9{
-	background-color:rgba(100,10,199,0.5);
-
-transform:translateZ(-1238px) rotateY(-288deg);
-}
-
-
-.show-10{
-	background-color:rgba(0,88,85,0.5);
-
-transform:translateZ(-1238px) rotateY(-324deg);	
-}
-
-.buttons{
-text-align:center;
-}
-
-button {
-	font-size:1.2rem;
-	padding:10px 20x;
-	margin:0 20px;
+        body {
+            background-color: rgb(130, 0, 82);
+        }
+        
+        .scene {
+            width: 820px;
+            height: 650px;
+            perspective: 800px;
+            margin: 75px auto;
+        }
+        
+        .carasoul {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 2s;
+            transform: translateZ(-1088px);
+        }
+        
+        img {
+            width: 800px;
+            height: 630px;
+        }
+        
+        .item {
+            width: 800px;
+            height: 630px;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            text-align: center;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        
+        .item:nth-child(1) {
+            background-color: rgba(0, 0, 255, 0.5);
+            transform: rotateY(0deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(2) {
+            background-color: rgba(255, 122, 155, 0.5);
+            transform: rotateY(36deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(3) {
+            background-color: rgba(133, 255, 133, 0.5);
+            transform: rotateY(72deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(4) {
+            background-color: rgba(255, 144, 144, 0.5);
+            transform: rotateY(108deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(5) {
+            background-color: rgba(55, 155, 155, 0.5);
+            transform: rotateY(144deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(6) {
+            background-color: rgba(66, 66, 255, 0.5);
+            transform: rotateY(180deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(7) {
+            background-color: rgba(77, 0, 255, 0.5);
+            transform: rotateY(216deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(8) {
+            background-color: rgba(0, 88, 255, 0.5);
+            transform: rotateY(252deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(9) {
+            background-color: rgba(100, 10, 199, 0.5);
+            transform: rotateY(288deg) translateZ(1238px);
+        }
+        
+        .item:nth-child(10) {
+            background-color: rgba(0, 88, 85, 0.5);
+            transform: rotateY(324deg) translateZ(1238px);
+        }
+        
+        .show-1 {
+            background-color: rgba(0, 0, 255, 0.5);
+            transform: translateZ(-1238px) rotateY(-0deg);
+        }
+        
+        .show-2 {
+            background-color: rgba(255, 122, 155, 0.5);
+            transform: translateZ(-1238px) rotateY(-36deg);
+        }
+        
+        .show-3 {
+            background-color: rgba(133, 255, 133, 0.5);
+            transform: translateZ(-1238px) rotateY(-72deg);
+        }
+        
+        .show-4 {
+            background-color: rgba(255, 144, 144, 0.5);
+            transform: translateZ(-1238px) rotateY(-108deg);
+        }
+        
+        .show-5 {
+            background-color: rgba(55, 155, 155, 0.5);
+            transform: translateZ(-1238px) rotateY(-144deg);
+        }
+        
+        .show-6 {
+            background-color: rgba(66, 66, 255, 0.5);
+            transform: translateZ(-1238px) rotateY(-180deg);
+        }
+        
+        .show-7 {
+            background-color: rgba(77, 0, 255, 0.5);
+            transform: translateZ(-1238px) rotateY(-216deg);
+        }
+        
+        .show-8 {
+            background-color: rgba(0, 88, 255, 0.5);
+            transform: translateZ(-1238px) rotateY(-252deg);
+        }
+        
+        .show-9 {
+            background-color: rgba(100, 10, 199, 0.5);
+            transform: translateZ(-1238px) rotateY(-288deg);
+        }
+        
+        .show-10 {
+            background-color: rgba(0, 88, 85, 0.5);
+            transform: translateZ(-1238px) rotateY(-324deg);
+        }
+        
+        .buttons {
+            text-align: center;
+        }
+        
+        button {
+            font-size: 1.2rem;
+            padding: 10px 20x;
+            margin: 0 20px;
+        }
