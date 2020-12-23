@@ -1,0 +1,52 @@
+.flex-container{
+width:800px;
+height:600px;
+display: flex;
+  flex-wrap: wrap;
+border:5px solid red;
+margin:0px auto;
+}
+
+
+.item1  {
+  background-color: #374455;
+  width: 100px;
+  margin: 10px;
+padding:10px;
+flex-grow: 1;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.item2  {
+  background-color: #374455;
+  width: 100px;
+  margin: 10px;
+
+flex-grow: 6;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.search-user{
+display: flex;
+flex-wrap: wrap;
+height:5%;
+  flex-direction: row;
+border:2px solid green;
+
+}
+
+
+.search-user > input{
+width:75%;
+height:100%;
+flex-grow: 1;
+}
+.search-user > i{
+width:20%;
+height:100%;
+flex-grow: 1;
+}
